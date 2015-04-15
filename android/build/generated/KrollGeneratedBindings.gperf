@@ -1,0 +1,16 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name ParsedcBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "com.dcgov.parsedc.ParsedcModule.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+com.dcgov.parsedc.ParsedcModule, ::com::dcgov::parsedc::ParsedcModule::bindProxy, ::com::dcgov::parsedc::ParsedcModule::dispose
+%%

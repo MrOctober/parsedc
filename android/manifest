@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+description: parsedc
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2014 by Your Company
+
+# these should not be edited
+name: parsedc
+moduleid: com.dcgov.parsedc
+guid: 22328788-66d8-4196-9651-02285a1e949e
+platform: android
+minsdk: 3.3.0.GA
